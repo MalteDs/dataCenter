@@ -152,7 +152,7 @@ public class DataCenter {
 	
 	
 	/**
-	 * The 
+	 * The method  retProyect allows rent a miniroom for a investigation proyect <br>
 	 * @param date
 	 * @param nameCompany
 	 * @param nitCompany
@@ -201,7 +201,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method showRent shows the rent of a miniroom <br>
 	 * @param search
 	 * @return
 	 */
@@ -219,7 +219,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method searchByRoom search an rented room by it unique number <br>
 	 * @param search
 	 * @return
 	 */
@@ -235,7 +235,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method deleteByRoom remove a rent <br>
 	 * @param search
 	 * @return
 	 */
@@ -249,7 +249,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method messageDeleteByCompany delete a rent
 	 * @param search
 	 * @return
 	 */
@@ -279,7 +279,7 @@ public class DataCenter {
 		return "The rent(s) has been deleted(s)";
 	}
 	/**
-	 * 
+	 * The method searchByCompany search a rent by name company
 	 * @param search
 	 * @return
 	 */
@@ -295,7 +295,7 @@ public class DataCenter {
 		return cont;
 	}
 	/**
-	 * 
+	 * The method fillMap fill the map of rooms
 	 */
 	public void fillMap() {
 		for (int i = 0; i < CORRIER; i++) {
@@ -313,7 +313,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method showMap shows the map of rooms
 	 * @return
 	 */
 	public String showMap() {
@@ -329,7 +329,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method simulate the turn on of the rooms
 	 * @return
 	 */
 	public String simulateOnMap() {
@@ -344,7 +344,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method simulate the turn off of the rooms
 	 * @param option
 	 * @return
 	 */
@@ -402,7 +402,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method simulate the turn on of the rooms
 	 * @return
 	 */
 	public String simulateOffL() {
@@ -419,7 +419,7 @@ public class DataCenter {
 	}
 	
 	/**
-	 * 
+	 * The method simulate the turn on of the rooms
 	 * @return
 	 */
 	public String simulateOffZ() {
@@ -439,6 +439,10 @@ public class DataCenter {
 		return message;
 	}
 	
+	/**
+	 * The method simulate the turn on of the rooms
+	 * @return
+	 */
 	public String simulateOffH() {
 		String message="";
 		for (int i = 0; i < CORRIER; i++) {
@@ -452,6 +456,10 @@ public class DataCenter {
 		return message;
 	}
 	
+	/**
+	 * The method simulate the turn on of the rooms
+	 * @return
+	 */
 	public String simulateOffO() {
 		String message="";
 		for (int i = 0; i < CORRIER; i++) {
@@ -465,6 +473,11 @@ public class DataCenter {
 		return message;
 	}
 	
+	/**
+	 * The method simulate the turn on of the rooms
+	 * @param column
+	 * @return
+	 */
 	public String simulateOffM(int column) {
 		String message="";
 		for (int i = 0; i < CORRIER; i++) {
@@ -478,6 +491,11 @@ public class DataCenter {
 		return message;
 	}
 	
+	/**
+	 * The method simulate the turn on of the rooms
+	 * @param corrier
+	 * @return
+	 */
 	public String simulateOffP(int corrier) {
 		String message="";
 		for (int i = 0; i < CORRIER; i++) {
